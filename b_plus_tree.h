@@ -11,9 +11,9 @@ class BPlusTree {
 
 public:
 
-    static constexpr int leaf_size = 24, internal_size = 168;
-    static constexpr int leaf_merge_size = 10, internal_merge_size = 70;
-    static constexpr int page_size = 2048, cache_limit = 16384;
+    static constexpr int leaf_size = 48, internal_size = 180;
+    static constexpr int leaf_merge_size = 16, internal_merge_size = 60;
+    static constexpr int page_size = 4096, cache_limit = 8192;
     static constexpr char data_path[] = "data.bin", info_path[] = "info.bin", root_path[] = "root.bin";
 
     struct Data {
