@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.22.1)
-project(BPT)
+project(code)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BPT b_plus_tree.h
+add_executable(code b_plus_tree.h
         page_manager.h
         utils/qsort.h
         utils/vector.h
